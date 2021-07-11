@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+    }
+
+    div {
+
+      background-color: rgb(219, 95, 95);
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin: auto;
+    }
+
+    .fixed {
+      z-index: 1;
+      width: 100px;
+      height: 100px;
+    }
+
+    .absolute {
+      background-color: rgb(97, 220, 241);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex">
+
+  </div>
+  <div class="fixed">
+    固定定位在屏幕中心
+  </div>
+  <div class="absolute">
+    铺满屏幕，将按钮放大到整个屏幕
+  </div>
+</body>
+
+</html>
